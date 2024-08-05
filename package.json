@@ -1,0 +1,27 @@
+{
+	"name": "my-svelte-app",
+	"type": "module",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "biome lint --error-on-warnings .",
+		"format": "biome format --error-on-warnings .",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@klnjs/biome-config": "3.0.3",
+		"@klnjs/typescript-config": "3.0.3",
+		"@sveltejs/adapter-auto": "3.2.2",
+		"@sveltejs/kit": "2.5.20",
+		"@sveltejs/vite-plugin-svelte": "3.1.1",
+		"svelte": "4.2.18",
+		"svelte-check": "3.8.5",
+		"typescript": "5.5.4",
+		"vite": "5.3.5"
+	}
+}

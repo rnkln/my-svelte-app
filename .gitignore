@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Except these folders
+!.github/
+!.github/**/*
+!src/
+!src/**/*
+!static/
+!static/**/*
+
+# Except these files
+!.editorconfig
+!.gitignore
+!.tool-versions
+!biome.json
+!bun.lockb
+!CHANGELOG.md
+!package.json
+!README.md
+!renovate.json
+!svelte.config.js
+!tsconfig.json
+!vite.config.ts
